@@ -1,7 +1,6 @@
 <SECTION>
 <FILE>gupnp-dlna-audio-information</FILE>
 <TITLE>GUPnPDLNAAudioInformation</TITLE>
-GUPnPDLNAAudioInformation
 GUPnPDLNAAudioInformationClass
 gupnp_dlna_audio_information_get_bitrate
 gupnp_dlna_audio_information_get_channels
@@ -22,13 +21,13 @@ GUPNP_DLNA_AUDIO_INFORMATION_GET_CLASS
 GUPNP_IS_DLNA_AUDIO_INFORMATION
 GUPNP_IS_DLNA_AUDIO_INFORMATION_CLASS
 GUPNP_TYPE_DLNA_AUDIO_INFORMATION
+GUPnPDLNAAudioInformation
 gupnp_dlna_audio_information_get_type
 </SECTION>
 
 <SECTION>
 <FILE>gupnp-dlna-container-information</FILE>
 <TITLE>GUPnPDLNAContainerInformation</TITLE>
-GUPnPDLNAContainerInformation
 GUPnPDLNAContainerInformationClass
 gupnp_dlna_container_information_get_mpeg_version
 gupnp_dlna_container_information_get_packet_size
@@ -43,6 +42,7 @@ GUPNP_DLNA_CONTAINER_INFORMATION_GET_CLASS
 GUPNP_IS_DLNA_CONTAINER_INFORMATION
 GUPNP_IS_DLNA_CONTAINER_INFORMATION_CLASS
 GUPNP_TYPE_DLNA_CONTAINER_INFORMATION
+GUPnPDLNAContainerInformation
 gupnp_dlna_container_information_get_type
 </SECTION>
 
@@ -60,9 +60,6 @@ gupnp_dlna_int_range_copy
 gupnp_dlna_int_range_free
 gupnp_dlna_int_range_get_min
 gupnp_dlna_int_range_get_max
-GUPnPDLNAFractionRange
-GUPnPDLNAFraction
-GUPnPDLNAIntRange
 <SUBSECTION Standard>
 GUPNP_DLNA_FRACTION
 GUPNP_DLNA_FRACTION_RANGE
@@ -70,6 +67,9 @@ GUPNP_DLNA_INT_RANGE
 GUPNP_TYPE_DLNA_FRACTION
 GUPNP_TYPE_DLNA_FRACTION_RANGE
 GUPNP_TYPE_DLNA_INT_RANGE
+GUPnPDLNAFraction
+GUPnPDLNAFractionRange
+GUPnPDLNAIntRange
 gupnp_dlna_fraction_get_type
 gupnp_dlna_fraction_range_get_type
 gupnp_dlna_int_range_get_type
@@ -78,7 +78,6 @@ gupnp_dlna_int_range_get_type
 <SECTION>
 <FILE>gupnp-dlna-image-information</FILE>
 <TITLE>GUPnPDLNAImageInformation</TITLE>
-GUPnPDLNAImageInformation
 GUPnPDLNAImageInformationClass
 gupnp_dlna_image_information_get_depth
 gupnp_dlna_image_information_get_height
@@ -91,13 +90,13 @@ GUPNP_DLNA_IMAGE_INFORMATION_GET_CLASS
 GUPNP_IS_DLNA_IMAGE_INFORMATION
 GUPNP_IS_DLNA_IMAGE_INFORMATION_CLASS
 GUPNP_TYPE_DLNA_IMAGE_INFORMATION
+GUPnPDLNAImageInformation
 gupnp_dlna_image_information_get_type
 </SECTION>
 
 <SECTION>
 <FILE>gupnp-dlna-information</FILE>
 <TITLE>GUPnPDLNAInformation</TITLE>
-GUPnPDLNAInformation
 GUPnPDLNAInformationClass
 gupnp_dlna_information_get_audio_information
 gupnp_dlna_information_get_container_information
@@ -112,6 +111,7 @@ GUPNP_DLNA_INFORMATION_GET_CLASS
 GUPNP_IS_DLNA_INFORMATION
 GUPNP_IS_DLNA_INFORMATION_CLASS
 GUPNP_TYPE_DLNA_INFORMATION
+GUPnPDLNAInformation
 GUPnPDLNAInformationPrivate
 gupnp_dlna_information_get_type
 </SECTION>
@@ -172,10 +172,10 @@ gupnp_dlna_restriction_is_empty
 gupnp_dlna_restriction_to_string
 gupnp_dlna_restriction_get_mime
 gupnp_dlna_restriction_get_entries
-GUPnPDLNARestriction
 <SUBSECTION Standard>
 GUPNP_DLNA_RESTRICTION
 GUPNP_TYPE_DLNA_RESTRICTION
+GUPnPDLNARestriction
 gupnp_dlna_restriction_get_type
 </SECTION>
 
@@ -186,10 +186,10 @@ gupnp_dlna_value_list_free
 gupnp_dlna_value_list_is_empty
 gupnp_dlna_value_list_to_string
 gupnp_dlna_value_list_get_g_values
-GUPnPDLNAValueList
 <SUBSECTION Standard>
 GUPNP_DLNA_VALUE_LIST
 GUPNP_TYPE_DLNA_VALUE_LIST
+GUPnPDLNAValueList
 gupnp_dlna_value_list_get_type
 </SECTION>
 
@@ -213,7 +213,6 @@ GUPNP_DLNA_STRING_VALUE_UNSUPPORTED
 <SECTION>
 <FILE>gupnp-dlna-video-information</FILE>
 <TITLE>GUPnPDLNAVideoInformation</TITLE>
-GUPnPDLNAVideoInformation
 GUPnPDLNAVideoInformationClass
 gupnp_dlna_video_information_get_bitrate
 gupnp_dlna_video_information_get_framerate
@@ -233,6 +232,7 @@ GUPNP_DLNA_VIDEO_INFORMATION_GET_CLASS
 GUPNP_IS_DLNA_VIDEO_INFORMATION
 GUPNP_IS_DLNA_VIDEO_INFORMATION_CLASS
 GUPNP_TYPE_DLNA_VIDEO_INFORMATION
+GUPnPDLNAVideoInformation
 gupnp_dlna_video_information_get_type
 </SECTION>
 

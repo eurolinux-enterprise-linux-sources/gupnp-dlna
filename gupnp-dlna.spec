@@ -1,6 +1,6 @@
 Name:          gupnp-dlna
-Version:       0.10.2
-Release:       3%{?dist}
+Version:       0.10.5
+Release:       1%{?dist}
 Summary:       A collection of helpers for building UPnP AV applications
 
 Group:         System Environment/Libraries
@@ -87,6 +87,11 @@ find %{buildroot} -name '*.la' -exec rm -f {} ';'
 %{_datadir}/gtk-doc/html/%{name}-metadata
 
 %changelog
+* Thu Mar 02 2017 Bastien Nocera <bnocera@redhat.com> - 0.10.5-1
++ gupnp-dlna-0.10.5-1
+- Update to 0.10.5
+Resolves: #1386989
+
 * Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 0.10.2-3
 - Mass rebuild 2014-01-24
 
