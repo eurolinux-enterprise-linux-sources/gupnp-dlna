@@ -1,6 +1,6 @@
 Name:          gupnp-dlna
 Version:       0.10.2
-Release:       1%{?dist}
+Release:       3%{?dist}
 Summary:       A collection of helpers for building UPnP AV applications
 
 Group:         System Environment/Libraries
@@ -87,6 +87,12 @@ find %{buildroot} -name '*.la' -exec rm -f {} ';'
 %{_datadir}/gtk-doc/html/%{name}-metadata
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 0.10.2-3
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.10.2-2
+- Mass rebuild 2013-12-27
+
 * Thu May 30 2013 Peter Robinson <pbrobinson@fedoraproject.org> 0.10.2-1
 - 0.10.2 release
 - http://ftp.gnome.org/pub/GNOME/sources/gupnp-dlna/0.10/gupnp-dlna-0.10.2.news
